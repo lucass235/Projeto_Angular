@@ -2,3 +2,24 @@
     <h3> Esse é meu primeiro componente</h3>
     <p> Que legal!! </p>
 </div>
+
+<br>
+
+<div>
+<h4> {{meuTitulo}} </h4>
+<p> {{texto1 + texto2}} </p>
+<p> Teste de concatenaçao {{texto1}}</p>
+</div>
+
+<div>
+    <p> {{geraTexto()}} </p>
+</div>
+
+<div>
+    <p> {{cliente.id}} </p>
+    <p> {{cliente.nome}} </p>
+</div>
+
+<div *ngFor="let umCliente of clientes">
+    <p *ngIf="umCliente.ativo"> {{umCliente.id}} - {{umCliente.nome}} </p>
+</div>
