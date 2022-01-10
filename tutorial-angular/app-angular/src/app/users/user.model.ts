@@ -32,6 +32,21 @@
         id: string;
         createdAt: Date;
     }
+    //modelos para o get user
+    export interface ResponseUser {
+        data: User
+    }
 
+    // modelos para o update
+    export interface RequestUpdate {
+        name: string;
+        job: string;
+    }
+
+    export interface ResponseUpdate {
+        name: string;
+        job: string;
+        updatedAt: Date;
+    }
 
 
