@@ -9,7 +9,8 @@ import { Pagina02Component } from './pagina02/pagina02.component';
 import { UsersComponent } from './users/users.component';
 import { CreateUserComponent } from './users/create-user/create-user.component';
 import { FormsModule } from "@angular/forms";
-import { UpdateComponent } from './users/update/update.component';
+import { UpdateComponent } from './users/update-user/update.component';
+import { DeleteUserComponent } from './users/delete-user/delete-user.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UpdateComponent } from './users/update/update.component';
     Pagina02Component,
     UsersComponent,
     CreateUserComponent,
-    UpdateComponent
+    UpdateComponent,
+    DeleteUserComponent
   ],
   imports: [
     BrowserModule,
