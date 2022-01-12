@@ -1,16 +1,26 @@
 h2 {
-    color: red;
-    font-size: 20px;
-    background-color: #f5f5f5;
+  color: red;
+  font-size: 20px;
+  background-color: #f5f5f5;
 }
 
 div {
-    width: 100%;
-    margin-top: 20px;
-    background-color: #f5f5f5;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  font-size: 20px;
 }
 
-button {
-    margin-top: 20px;
-    border: 1px solid black;
+#confirmar, #cancelar {
+  background-color: #4caf50; /* cor de fundo */
+  color: rgb(10, 1, 1); /* cor do texto */
+  padding: 10px 10px; /* espaçamento interno */
+  margin: 8px 0; /* espaçamento superior */
+  cursor: pointer; /* ponteiro do mouse */
+  width: 7%; /* largura */
+}
+
+#cancelar {
+  background-color: #f44336; /* cor de fundo */
+  margin-left: 10px; /* espaçamento esquerdo */
 }

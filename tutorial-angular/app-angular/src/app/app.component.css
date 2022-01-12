@@ -1,0 +1,11 @@
+#titulo {
+    font-size: 1.5em;  /* tamanho da fonte */	
+    text-align: center; /* alinhamento do texto */
+    color: #d31919; /* cor do texto */
+}
+
+ul {
+    list-style-type: circle; /* tipo de lista */
+    background-color: rgba(247, 99, 99, 0.493); /* cor de fundo */
+    
+}

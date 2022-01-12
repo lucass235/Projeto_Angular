@@ -1,32 +1,32 @@
 div {
-    background: rgb(230, 230, 230);
-    width: 50%;
-    height: 300px;
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 25%;
-    margin-right: 25%;
+    background: rgb(230, 230, 230); /* cor de fundo */
+    width: 50%; /* largura */
+    height: 300px; /* altura */
+    overflow-x: hidden; /* não exibe scroll horizontal */
+    display: flex; /* exibe como flex */
+    flex-direction: column; /* direção do flex */
+    justify-content: center; /* alinhamento vertical */
+    margin-left: 25%; /* margem esquerda */
+    margin-right: 25%; /* margem direita */
   }
   
   h2 {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: #000;
-    margin-top: 20px;
+    text-align: center; /* alinhamento do texto */
+    font-family: "Roboto", sans-serif;  /* fonte */
+    font-size: 20px; /* tamanho da fonte */
+    font-weight: bold; /* peso da fonte */
+    color: #000; /* cor do texto */
+    margin-top: 20px; /* margem superior */
   }
   
   
   button {
-    background-color: #4caf50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 25%;
-  }
+    background-color: #4caf50; /* cor de fundo */
+    color: white; /* cor do texto */
+    padding: 14px 20px; /* espaçamento interno */
+    margin: 8px 0; /* espaçamento superior */
+    border: none; /* sem borda */
+    cursor: pointer; /* ponteiro do mouse */
+    width: 25%; /* largura */
+  } 
   
