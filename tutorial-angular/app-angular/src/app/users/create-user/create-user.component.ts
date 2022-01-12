@@ -22,11 +22,14 @@ export class CreateUserComponent implements OnInit {
   }
 
   save() {
-   this.userService.createUser(this.request).subscribe( res => {
-     this.response = res;
-   });
- 
+
+    if (this.request.name.trim() === "" || this.request.job.trim() === "") {
+      alert("Preencha todos os campos")
+      return
+    } else {
+      this.userService.createUser(this.request).subscribe(res => {
+        this.response = res;
+      });
+    }
   }
-
 }
-
