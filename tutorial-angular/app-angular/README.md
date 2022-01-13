@@ -1,27 +1,37 @@
-# AppAngular
+<h1 align="center">Projeto em Angular</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+<h3 align="center">Projeto CRUD em Angular</h3>
 
-## Development server
+<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 💻 Projeto
 
-## Code scaffolding
+Repositório do projeto CRUD em Angular, com todos os processos do crud como adicionar usuário, editar usuário, exibir usuários e remover usuário. Os dados dos dos usuários foram recebidos por uma API Fake da internet que se encotra nesse [Link](https://reqres.in/).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## ✨ Tecnologias
 
-## Build
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Angular](https://angular.io/)
 
-## Running unit tests
+## 🚀 Como executar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Instale VsCode (de preferência)
+- Clone o repositório
+- Abra o projeto no VsCode
+- Entre no `Projeto_Angular/tutorial-angular/app-angular/ `
+- Abra o terminal
+- Entre até a pasta `app-angular/`
+- Inicie o comando `ng serve -open`
+- O projeto irá ser aberto em seu navegador
 
-## Running end-to-end tests
+## 👨‍👦‍👦 COLABORADORES
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### Nome: Lucas dos Santos Amorim Rego
+- GitHub: [Lucass235](https://github.com/lucass235)
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+##
+Projeto desenvolvido com objetivo de aperfeiçoar meus conhecimentos em Angular.
